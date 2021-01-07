@@ -1,0 +1,2 @@
+#Ignora i file pdf per evitare di caricare le diapositive protette da copyright
+*.pdf
