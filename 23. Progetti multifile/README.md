@@ -64,7 +64,7 @@ Grazie alla dichiarazione il compilatore sarà in grado di creare il record di a
 
 Nel caso il nostro programma avesse un unico file come abbiamo fatto fino ad ora non è necessario scrivere la dichiarazione di funzione, questo perchè la definizione vale anche come dichiarazione, ma non viceversa (perchè appunto manca il corpo della funzione).
 
--
+---
 
 Vediamo allora i file **main.c** e **f.c** usati in precedenza come esempio con le giuste modifiche apportare.
 
@@ -140,7 +140,6 @@ Ora provvediamo a creare il file di intestazione per il modulo **f.c**: come det
 
 ```
 int f(int);
-
 ```
 
 A questo punto possiamo modificare il file **main.c** rimuovendo la dichiarazione di funzione e aggiungendo la direttiva **#include**.
