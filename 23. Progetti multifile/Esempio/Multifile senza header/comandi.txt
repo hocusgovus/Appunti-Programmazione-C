@@ -1,0 +1,6 @@
+//  Creazione dei file oggetto (Compilazione)
+gcc -c main.c
+gcc -c funzione.c
+
+//  Linking
+gcc main.o funzione.o -o ./programma
