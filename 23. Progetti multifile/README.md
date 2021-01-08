@@ -9,7 +9,7 @@ Nel linguaggio C (e non solo) è possibile suddividere un programma in multipli 
 Questi file che andiamo a importare si chiamano solitamente moduli, ma come fa il sistema a capire cosa bisogna unire?  
 Quello che noi normalmente chiamiamo compilazione in realtà comprende sia la compilazione che il linking: per prima cosa il compilatore effettua la conversione di ogni file sorgente del progetto in più file detti oggetti (viene creato un file oggetto per ogni file sorgente), successivamente il linker unisce tutti questi file oggetto e le eventuali funzioni di libreria che abbiamo invocato (come per esempio i printf) in un unico file eseguibile, questo ultimo procedimento è appunto detto linking.
 
-![Schema linker](./Immagini/Schema linker.jpeg)
+![Schema linker](https://github.com/leonard0g/Appunti-Programmazione-C/raw/master/23.%20Progetti%20multifile/Immagini/Schema%20linker.jpeg)
 
 Per far si che il compilatore e il linker capiscano cosa unire non basta mettere il file contenente il main e i vari moduli nella stessa cartella, ci sono alcuni accorgimenti da fare.  
 Se per esempio creiamo un file chiamato **f.c**
