@@ -11,7 +11,7 @@ Nel linguaggio C le varibili possono essere classificate a seconda di come vengo
 
 - **Le varibili globali** sono quelle che vengono dichiarate fuori da qualsiasi funzione e quindi accessibili da qualsiasi parte del programma, queste sono salvate nel **Data segment** e hanno tempo di vita pari al tempo di vita del programma (esistono finchè il programma non termina);
 - **Le variabili automatiche** (anche chiamate locali) sono quelle varibili che vengono passate a una funzione (parametri) oppure che vengono dichiarate all'interno di essa, queste sono salvate nello **Stack** e vengono eliminate quando la funzione termina;
-- **Le variabili dinamiche** sono variabili speciali in quando lo sviluppatore ha il pieno controllo di esse, vengono salvate nello **Heap** e spetta allo sviluppatore decidere quando crearle e quando eliminarle.
+- **Le variabili dinamiche** sono variabili speciali in quanto lo sviluppatore ha il pieno controllo di esse, vengono salvate nello **Heap** e spetta allo sviluppatore decidere quando crearle e quando eliminarle.
 
 ![Schema memoria](https://media.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg)
 
