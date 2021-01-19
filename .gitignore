@@ -3,3 +3,6 @@
 
 #Stupid macOS
 .DS_Store
+
+#Other stuff
+*.o
