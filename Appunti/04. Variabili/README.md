@@ -8,9 +8,9 @@ In ogni linguaggio di programmazione è bene evitare nomi che contengono caratte
 ### Esempio di definizione
 `int a;  //int indica valori interi (numeri appartenenti a Z)​`
 
-Per definizione si intende la creazione di una variabile. L’assegnazione, invece, è il “riempimento” di una variabile preesistente con un valore o un'espressione, calcolata dal programma, in base al suo tipo. In C, l’assegnamento è distruttivo, ovvero quando viene assegnato un nuovo valore ad una variabile, il precedente va perso e non è più recuperabile.
+Per definizione si intende la creazione di una variabile. L’assegnazione invece è il “riempimento” di una variabile preesistente con un valore o un'espressione, calcolata dal programma, in base al suo tipo. In C, l’assegnamento è distruttivo, ovvero quando viene assegnato un nuovo valore ad una variabile, il precedente va perso e non è più recuperabile.
 
-### Esempio di definizione
+### Esempio di assegnamento
 `a = 10;`
 
 Per snellire il programma, definizione e assegnazione possono essere fatte nello stesso momento. Questo è possibile anche con più variabili dello stesso tipo.
